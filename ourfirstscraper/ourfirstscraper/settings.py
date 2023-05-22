@@ -91,3 +91,6 @@ ROBOTSTXT_OBEY = True
 REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
+#Export as CSV Feed
+FEED_FORMAT = "csv"
+FEED_URI = "reddit.csv"
